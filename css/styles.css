@@ -125,6 +125,9 @@ body {
 .connect li {
   list-style: none;
 }
+.video {
+  display: none;
+}
 /*--MEDIA QUERY--*/
 @media screen and (max-width: 499px) {
   .nav-list-div {
@@ -203,5 +206,14 @@ body {
   #knit {
     display: none;
   }
-
+}
+@media screen and (min-width: 1280px) {
+  #herow {
+    display: none;
+  }
+  .video {
+    display: block;
+    margin-top: 7%;
+    margin-left: 22%;
+  }
 }
