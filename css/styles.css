@@ -1,0 +1,11 @@
+
+.u-full-width img {
+  width: 100%;
+  display: block;
+}
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box;
+  border: solid 1px grey;
+  background: black;
+}
