@@ -1,3 +1,23 @@
+body {
+  font-family: 'Love Ya Like A Sister';
+  color: aqua;
+}
+
+#knit {
+  opacity: 0.5;
+  /* Set rules to fill background */
+  min-height: 100vh;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
 .u-full-width img {
   width: 100%;
@@ -7,5 +27,51 @@
   width: 100%;
   box-sizing: border-box;
   border: solid 1px grey;
-  background: black;
+}
+
+.nav {
+  overflow: auto;
+}
+
+#inventor {
+  float: left;
+  margin: 1%;
+}
+
+.nav-list-div {
+  text-align: right;
+  vertical-align: center;
+  margin-right: 1%;
+  margin-top: 2.5%;
+}
+
+.nav-list {
+  display: inline;
+}
+
+.nav-list li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-list ul {
+  display: inline;
+  margin-top: 2%;
+}
+
+.panel1 img, .panel2 img, .panel3 img{
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-list-div {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  body{
+    background-image: url('../img/edit-o-matic.jpg');
+  }
 }
