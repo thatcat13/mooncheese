@@ -24,6 +24,7 @@ body {
   left: 0;
 }
 
+
 .u-full-width img {
   width: 100%;
   display: block;
@@ -31,11 +32,16 @@ body {
 .u-full-width {
   width: 100%;
   box-sizing: border-box;
-  border: solid 1px grey;
+
+}
+
+#nav-row {
+  background-color: #f5f7e9;
 }
 
 .nav {
   overflow: auto;
+  border: 1px solid #00a3bd;
 }
 
 #inventor {
@@ -44,10 +50,11 @@ body {
 }
 
 .nav-list-div {
-  text-align: right;
-  vertical-align: center;
+  /*text-align: left;
+  vertical-align: center;*/
   margin-right: 1%;
   margin-top: 2.5%;
+
 }
 
 .nav-list {
@@ -57,7 +64,12 @@ body {
 .nav-list li {
   display: inline-block;
   list-style: none;
+}
+
+.nav-list a {
+  list-style: none;
   text-decoration: none;
+  padding: 5px;
 }
 
 .nav-list ul {
@@ -69,12 +81,22 @@ body {
 }*/
 #img-div {
   position: relative;
+  display: inline-block;
 }
+
+#cheers {
+  position: relative;
+}
+
 #inventors {
-  top: 300px;
-  left: 100px;
-  position:absolute;
+  top: 66%;
+  left: 2%;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
 }
+
 .panel1, .panel2, .panel3 {
   background-color: #f5f7e9;
   margin-top: 5%;
@@ -90,14 +112,65 @@ body {
   width: 100%;
 }
 
+.footer {
+  background-color: #f5f7e9;
+  border: 1px solid #00a3bd;
+  margin: 5% 0%;
+  padding: 2%;
+}
+
+.footer i {
+  padding: 5px;
+}
+
+.connect li {
+  list-style: none;
+}
 
 /*--MEDIA QUERY--*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 499px) {
   .nav-list-div {
     float: left;
   }
+
+  .menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+  }
+
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: rgb(0,0,0);
+	z-index: 99;
+  }
+
+.responsive-menu{
+	display: none;
+  }
+
+.expand {
+	display: block !important;
+  }
 }
+
+@media screen and (min-width: 500px) {
+  .nav-list-div {
+    float: right;
+  }
+}
+
 
 @media screen and (max-width: 979px) {
   .panel1, .panel2, .panel3 {

@@ -2,6 +2,9 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Khand|Love+Ya+Like+A+Sister|Source+Code+Pro|VT323" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
@@ -13,22 +16,34 @@
     <img id="knit" src="img/knit-o-matic.jpg" alt="">
     <img id="edit" src="img/edit-o-matic.jpg" alt="">
     <div class="container">
-      <div class="row">
+      <div id="nav-row" class="row">
         <div class="u-full-width nav">
-          <h1 id="inventor">Wallace and Gromit</h1>
-          <div class="nav-list-div">
-            <ul class="nav-list">
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">About Gromit</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+          <h2 id="inventor">Wallace and Gromit</h2>
+          <div class="mobile-nav">
+            <div class="menu-btn" id="menu-btn">
+          	<div></div>
+            	<span></span>
+            	<span></span>
+            	<span></span>
+            </div>
+            <div class="responsive-menu nav-list-div">
+              <ul class="nav-list">
+               <li><a href="#">About Me</a></li>
+               <li><a href="#">About Gromit</a></li>
+               <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
           </div>
+          <!-- <div class="nav-list-div">
+            <ul class="nav-list">
+            </ul>
+          </div> -->
         </div>
-      </div>
+      </div><!--row for nav-->
       <div id="herow" class="row">
         <div id="img-div" class="u-full-width">
           <h3 id="inventors">Inventors Extraordinaire</h3>
-          <img src="img/cheers.jpg" alt="">
+          <img id="cheers" src="img/cheers.jpg" alt="">
         </div>
       </div>
       <div class="row">
@@ -52,13 +67,32 @@
         </div>
         <div class="four columns panel3">
           <img src="img/cracking.jpg" alt="football">
-          <h3>Football o Matic</h3>
+          <h3>Football o Matic o Matic</h3>
           <ul>
             <li>some other stuff</li>
             <li>some other stuff</li>
             <li>some other stuff</li>
           </ul>
         </div>
+      </div><!--row for panels-->
+      <div class="row footer">
+        <div class="u-full-width">
+          <h5>Cheerio, chap! Cracking job!</h5>
+          <h6>Thanks for checking out our inventions!</h6>
+          <ul class="connect">
+            <li>CONNECT:</li>
+            <li>
+              <i class="fa fa-twitter" aria-hidden="true"></i><i class="fa fa-instagram" aria-hidden="true"></i><i class="fa fa-facebook" aria-hidden="true"></i><i class="fa fa-dribbble" aria-hidden="true"></i><i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </li>
+          </ul>
+          <!-- <ul id="footer-list">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul> -->
+        </div>
+
       </div>
     </div><!--main container-->
 
