@@ -15,18 +15,7 @@
 
 
 ### Installation Instructions:
-  1. Go to: https://tamagotchi-in-react.firebaseapp.com
-
-  OR
-
-  2. Clone project from GitHub repository, by copying and pasting the url of this GitHub repository following the $git clone command into your favorite command line program, such as Terminal on Mac:
-  ```
-  $git clone https://github.com/thatcat13/tamagotchi-react project
-  $cd project
-  $npm install
-  $npm run start
-  ```
-  3. Navigate to localhost:8080 in your browser
+  1. 
 
 
 ## Known Bugs
