@@ -32,7 +32,8 @@ No known bugs, but please let us know what comes up.
 If you have any issues, please feel free to contact us at:
 * thatcat13@gmail.com
 * https://github.com/thatcat13
-* 
+* onyx.shane@gmail.com
+* https://github.com/ferociousfox
 
 ## Technologies Used
 * HTML
